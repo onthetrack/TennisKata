@@ -1,0 +1,7 @@
+{
+  "name": "TennisKata",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "tsc main.ts game.ts player.ts score.ts -outDir ./js && node ./js/main.js"
+  }
+}
