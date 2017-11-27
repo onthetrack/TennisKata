@@ -58,7 +58,7 @@ export class Game
                 {
                     console.log('There is a Tie-Break!!');
                     this.runTieBreak();
-                    break;
+                    return;
                 }
             }
 
